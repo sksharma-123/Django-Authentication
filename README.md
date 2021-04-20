@@ -44,3 +44,10 @@ This is a simple django built-in authentication system.
 	LOGIN_REDIRECT_URL = 'home'
 	LOGOUT_REDIRECT_URL = '/'
 	EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+	
+---
+
+### Make sure to run these commands after doing these settings.
+
+	- python manage.py makemigrations
+	- python manage.py migrate
